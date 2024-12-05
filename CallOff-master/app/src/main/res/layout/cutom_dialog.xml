@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="250dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.kurre.calloff.WhatsAppActivity">
+
+
+    <ImageView
+        android:id="@+id/Profile"
+        android:layout_width="260dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/gini"
+        android:layout_weight="0.01" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/buttonLoadPicture"
+            android:layout_width="182dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="0"
+
+            android:text="Change Image "
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+</LinearLayout>
